@@ -77,10 +77,20 @@ class _LoginUiState extends State<LoginUi> {
                           ],
                         ),
                         Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             TextButton(
                                 onPressed: () {},
                                 child: const Text('SignUp',
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.w700,
+                                      decoration: TextDecoration.underline,
+                                      color: Color(0xff4c505b),
+                                    ))),
+                            TextButton(
+                                onPressed: () {},
+                                child: const Text('Forget Password',
                                     style: TextStyle(
                                       fontSize: 18,
                                       fontWeight: FontWeight.w700,
