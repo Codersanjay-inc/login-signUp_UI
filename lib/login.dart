@@ -80,7 +80,9 @@ class _LoginUiState extends State<LoginUi> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             TextButton(
-                                onPressed: () {},
+                                onPressed: () {
+                                  Navigator.pushNamed(context, 'register');
+                                },
                                 child: const Text('SignUp',
                                     style: TextStyle(
                                       fontSize: 18,

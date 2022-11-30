@@ -5,7 +5,7 @@ import 'package:login_page/register.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    initialRoute: '/',
+    initialRoute: 'login',
     routes: {
       'login': (context) => const LoginUi(),
       'register': (context) => const SignUi(),
