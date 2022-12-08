@@ -20,7 +20,7 @@ class _LoginUiState extends State<LoginUi> {
             Container(
               padding: const EdgeInsets.only(left: 35, top: 165),
               child: const Text(
-                "बेरोज़गार",
+                "Welcome",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 33.0,
@@ -83,7 +83,7 @@ class _LoginUiState extends State<LoginUi> {
                                 onPressed: () {
                                   Navigator.pushNamed(context, 'register');
                                 },
-                                child: const Text('SignUp',
+                                child: const Text('Register Here',
                                     style: TextStyle(
                                       fontSize: 18,
                                       fontWeight: FontWeight.w700,
@@ -105,6 +105,5 @@ class _LoginUiState extends State<LoginUi> {
                     ))),
           ]),
         ));
-    // ignore: dead_code
   }
 }
